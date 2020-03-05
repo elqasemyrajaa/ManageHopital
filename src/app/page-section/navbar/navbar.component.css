@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 150px;
+   
+}
+.header .navbar-style{
+    position: sticky;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+.header .navbar-style .navbar-header .navbar-brand{
+    height: 50px;
+    text-decoration: none;
+    margin-left: 150px;
+}
+.header .navbar-style .navbar-header .navbar-brand a{
+   color: dodgerblue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 23px;
+    
+}
+.header .navbar-style .navbar-header #micon li a{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:gray;   
+
+     
+ }
+ .header .navbar-style .navbar-header #micon {
+    margin-top: 45px; 
+     
+ }
+ .header .navbar-style .navbar-header #micon li a:focus{
+   background-color: dodgerblue;
+   color: white; 
+ }
+ 
+ .header .navbar-style .navbar-header #micon li a:hover{
+    background-color: dodgerblue;
+    color: white; 
+  }
+  
+.navbar-style{
+    box-shadow:0 5px 10px #efefef ;
+    text-transform: uppercase;
+}
+
+.icon-bar{
+    background:  dodgerblue;
+}
+
+#micon ul {
+    display: inline;
+    
+}
+/* body .main{
+    background-image: url("https://www.medifema.com.tr/img/yabanci-hasta-birimi.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: gray;
+} */
